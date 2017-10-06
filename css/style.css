@@ -33,13 +33,13 @@ p {
 }
 
 /* psuedo classes: to set content before as well as after any container */
-.container: before,
-.container: after {
+.container:before,
+.container:after {
   content: " ";
   display: table;
 }
 
-.container: after {
+.container:after {
   clear: both;
 }
 
