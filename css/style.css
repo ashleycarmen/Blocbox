@@ -102,10 +102,19 @@ header nav {
   padding: 1em 0;
 }
 
+header nav a.site-logo {
+  display: block;
+  margin:9 auto;
+  text-align: center;
+  float: none;
+  margin: 0;
+}
+
 header nav ul {
-  display: inline;
-  text-align: right;
-  float: right;
+  display: block;
+  margin:9 auto;
+  text-align: center;
+  float: none;
   margin: 0;
 }
 
@@ -153,6 +162,7 @@ header .hero p {
 header .hero img {
   display: block;
   margin:3em auto 0;
+  max-width:100%;
 }
 
 /* BUTTONS */
@@ -377,6 +387,20 @@ header .hero img {
  }
 
  @media (min-width: 992px){
+   header nav a.site-logo {
+     display: inline;
+     text-align: left;
+     float: left;
+     margin: 0;
+   }
+
+   header nav ul {
+     display: inline;
+     text-align: right;
+     float: right;
+     margin: 0;
+   }
+
   footer{
     background-color: linear-gradient(251deg,  #202A54 0%, rgba(33,10,62,0.90) 100%);
     background-image: linear-gradient(251deg,  #202A54 0%, rgba(33,10,62,0.90) 100%);
